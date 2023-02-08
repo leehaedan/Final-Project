@@ -5,7 +5,7 @@
     new fullpage('#full-page', {
         licenseKey: 'YOUR_KEY_HERE',
         navigation: true,
-        navigationTooltips: ['MAIN', 'TROUBLE RECOMMEND', 'BEST PRODUCT', 'SEARCH', 'HOT PLACE', 'MAGAZINE'],
+        navigationTooltips: ['MAIN', 'TROUBLE RECOMMEND', 'BEST PRODUCT', 'HOT PLACE', 'SEARCH'],
         scrollingSpeed: 1200
     });
 

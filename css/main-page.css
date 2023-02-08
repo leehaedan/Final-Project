@@ -2,8 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-
-    /* font-family: Helvetica; */
+    font-family: Helvetica;
 }
 
 a {
@@ -56,7 +55,6 @@ div a:hover {
 a:hover {
     color: #636363;
 }
-
 
 
 /* 페이지네비 */
@@ -120,7 +118,15 @@ a:hover {
 }
 
 .my-dog-img {
-    background: url('../img/main-title/dog-img-big.png') no-repeat;
+    background: url('../img/main-title/dog-img-col.png') no-repeat;
+    background-size: cover;
+    width: 384px;
+    height: 504px;
+    margin: 0 0 40px;
+}
+
+.my-cat-img {
+    background: url('../img/main-title/cat-img-col.png') no-repeat;
     background-size: cover;
     width: 384px;
     height: 504px;
@@ -203,13 +209,8 @@ a:hover {
     align-items: center;
 }
 
-.breath-background {
-    background: url('../img/product-img/review/breath-background1.png') center bottom no-repeat;
-    background-size: 100% 80%;
-}
-
-.joint-background {
-    background: url('../img/product-img/review/joint-background1.png') center bottom no-repeat;
+.health-background {
+    background: url('../img/product-img/review/health-background1.png') center bottom no-repeat;
     background-size: 100% 80%;
 }
 
@@ -244,11 +245,6 @@ a:hover {
     font-size: 33px;
     font-weight: 700;
 }
-
-.color-AC8DEE {
-    color: #AC8DEE;
-}
-
 .trouble-product-name {
     font-size: 20px;
 }
@@ -425,9 +421,9 @@ a:hover {
 .product-content {
     display: flex;
     flex-flow: row wrap;
-    align-content: space-evenly;
+    align-content: space-between;
     width: 900px;
-    height: 726px;
+    height: 766px;
 }
 
 .product-content>a {
@@ -672,7 +668,7 @@ a:hover {
     position: fixed;
     flex-direction: column;
     justify-content: space-between;
-    height: 16%;
+    height: 17%;
 }
 
 .hot-bigtext {
@@ -689,8 +685,8 @@ a:hover {
     color: #636363;
 }
 
-.color-8D95D6 {
-    color: #8D95D6;
+.color-FAA8C3 {
+    color: #FAA8C3;
 }
 
 .swiper-hot {
@@ -716,26 +712,6 @@ a:hover {
     cursor: pointer;
     scale: 1.08;
     transition: .4s;
-}
-
-
-/* 매거진 */
-.swiper-magazine {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.swiper-slide-magazine {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-}
-
-.swiper-slide-magazine img {
-    display: block;
-    width: 100%;
 }
 
 

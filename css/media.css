@@ -40,6 +40,11 @@
         height: 630px;
     }
 
+    .my-cat-img {
+        width: 480px;
+        height: 630px;
+    }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1080px) {
@@ -104,7 +109,15 @@
     }
 
     .my-dog-img {
-        background: url('../img/main-title/dog-img-small.png') no-repeat;
+        background: url('../img/main-title/dog-img-row.png') no-repeat;
+        background-size: cover;
+        width: 457px;
+        height: 348px;
+        margin: 0;
+    }
+
+    .my-cat-img {
+        background: url('../img/main-title/cat-img-row.png') no-repeat;
         background-size: cover;
         width: 457px;
         height: 348px;
@@ -175,7 +188,14 @@
     }
 
     .my-dog-img {
-        background: url('../img/main-title/dog-img-small.png') no-repeat;
+        background: url('../img/main-title/dog-img-row.png') no-repeat;
+        background-size: cover;
+        width: 410px;
+        height: 312px;
+        margin: 0;
+    }
+    .my-cat-img {
+        background: url('../img/main-title/cat-img-row.png') no-repeat;
         background-size: cover;
         width: 410px;
         height: 312px;
@@ -190,13 +210,8 @@
         height: 100%;
     }
 
-    .breath-background {
-        background: url('../img/product-img/review/breath-background.png') right no-repeat;
-        background-size: 110% 100%;
-    }
-
-    .joint-background {
-        background: url('../img/product-img/review/joint-background.png') right no-repeat;
+    .health-background {
+        background: url('../img/product-img/review/health-background.png') right no-repeat;
         background-size: 110% 100%;
     }
 
@@ -358,7 +373,7 @@
 
 
 /* 핫플 */
-@media screen and (min-width:769px) and (max-width:1024px) {
+@media screen and (min-width:769px) and (max-width:1080px) {
     .hot-bigtext {
         font-size: 38px;
         margin-top: 10px;
@@ -369,7 +384,7 @@
     }
 }
 
-@media screen and (min-width:1025px) {
+@media screen and (min-width:1080px) {
     .hot-bigtext {
         font-size: 42px;
         margin-top: 0;
@@ -377,5 +392,8 @@
 
     .hot-smalltext {
         font-size: 25px;
+    }
+    .swiper-slide-hot img {
+        width: 240px;
     }
 }

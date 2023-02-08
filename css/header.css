@@ -119,7 +119,7 @@ img {
     .top-banner {
         height:10px;
     }
-    .top-banner p , .main-menu , .user-icon{
+    .media-none , .main-menu , .user-icon{
         display: none;
     }
     .my-menu {
@@ -130,4 +130,12 @@ img {
         margin: 22px 30px;
     }
 
+}
+@media screen and (max-width:768px) {
+    .header a img {
+        width: 180px;
+    }
+    .menu-icon {
+        margin: 14px 30px;
+    }
 }

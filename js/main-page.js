@@ -3,9 +3,9 @@
 
     // 풀페이지
     new fullpage('#full-page', {
-        licenseKey: 'YOUR_KEY_HERE',
+        licenseKey: '',
         navigation: true,
-        navigationTooltips: ['MAIN', 'TROUBLE RECOMMEND', 'BEST PRODUCT', 'HOT PLACE', 'SEARCH'],
+        navigationTooltips: ['MAIN', 'TROUBLE RECOMMEND', 'BEST PRODUCT', 'HOT PLACE', 'SEARCH', 'FOOTER'],
         scrollingSpeed: 1200
     });
 

@@ -12,7 +12,7 @@
 
 .fp-auto-heigth {
     justify-content: end;
-    height: 491px;
+    height: 494px;
 }
 
 #footer-item .display-flex-column {
@@ -38,13 +38,17 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 150px;
+    height: 170px;
+    margin: 0 0 20px;
+}
+#footer-item .footer-logo {
+    margin: 0 0 10px;
 }
 #footer-item .top-rigth-footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    width: 630px;
+    width: 600px;
 }
 #footer-item .top-rigth-footer h3 {
     color: #8085AF;
@@ -64,7 +68,7 @@
 }
 
 #footer-item .business, .c2023, .top-rigth-footer>.space-between>div {
-    font-size: 16px;
+    font-size: 14px;
 }
 #footer-item .top-rigth-footer>.space-between>h3 {
     font-size: 19px;

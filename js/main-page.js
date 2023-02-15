@@ -39,9 +39,6 @@
     // 핫플레이스 가로 슬라이드
     var swiper = new Swiper(".mySwiper-hot", {
         wheel: true,
-        slidesPerView: 3,
-        spaceBetween: 30,
-        freeMode: true,
     });
 
     // 매거진

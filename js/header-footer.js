@@ -19,10 +19,12 @@ function init() {
     const toggleBtn = document.querySelector('.navbar-toggleBtn');
     const menu = document.querySelector('.navbar-menu');
     const icons = document.querySelector('.navbar-icons');
+    const bg = document.querySelector('.navbar');
     
     toggleBtn.addEventListener('click', () => {
         menu.classList.toggle('active');
         icons.classList.toggle('active');
+        bg.classList.toggle('active');
     });
 }
 

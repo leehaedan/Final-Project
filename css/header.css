@@ -26,6 +26,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 8px 12px;
+    background: none;
 }
 .navbar-menu {
     display: flex;
@@ -66,7 +67,11 @@ a {
         flex-direction: column;
         align-items: flex-start;
         padding: 8px 24px;
-        background-color: #FFFFFF;
+        background: transparent;
+    }
+    .navbar.active {
+        background: #FFFFFF;
+        transition: translateX(0%) translateY(-100%) .5s;
     }
     .navbar-menu {
         display: none;

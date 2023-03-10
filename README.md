@@ -1,3 +1,3 @@
 # final-project
 
-https://github.com/leehaedan/Final-Project/main-choice.html
+https://leehaedan.github.io/Final-Project/main-choice.html
